@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+
+    <!-- Hero Section with Navbar -->
+    <div class="relative h-screen bg-cover bg-center flex items-center justify-center" 
+        style="background-image: url('assets/images/hero.png');">
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Navbar -->
+        <header class="absolute top-0 left-0 w-full">
+            <nav class="flex items-center justify-between p-6 lg:px-12 bg-transparent">
+                <!-- Logo and Name -->
+                <div class="flex items-center gap-3">
+                    <a href="Index.html" class="flex items-center">
+                        <img class="h-12 w-auto" src="assets/images/logo.png" alt="Book Store Logo">
+                        <span class="text-lg font-bold text-white ml-2">Knowledge Hub</span>
+                    </a>
+                </div>
+                <!-- Navigation Links -->
+                <div class="hidden lg:flex lg:gap-x-10">
+                    <a href="Index.html" class="text-lg font-medium text-white hover:text-indigo-400 transition">Home</a>
+                    <a href="catlouge.html" class="text-lg font-medium text-white hover:text-indigo-400 transition">Catalog</a>
+                    <a href="#" class="text-lg font-medium text-white hover:text-indigo-400 transition">About Us</a>
+                </div>
+                <!-- Register & Login Buttons -->
+                <div class="hidden lg:flex lg:gap-x-6">
+                    <a href="register.html" class="text-lg font-medium text-white hover:text-indigo-400 transition">Register</a>
+                    <a href="login.html" class="text-lg font-medium text-white hover:text-indigo-400 transition">Log in</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Content -->
+        <div class="relative text-center text-white px-6">
+            <h1 class="text-5xl font-extrabold sm:text-7xl">"Discover, Read, <br> and Grow!" 📚✨</h1>
+            <p class="mt-10 text-lg sm:text-xl max-w-3xl mx-auto text-gray-300">
+                Welcome to Knowledge Hub! Explore a vast collection of books, from bestsellers to hidden gems. 
+                Whether you're a casual reader or a book enthusiast, we've got something for you!
+            </p>
+            <div class="mt-12 flex items-center justify-center gap-x-6">
+                <a href="register.html" class="bg-indigo-600 hover:bg-indigo-500 text-white text-lg font-semibold px-6 py-3 rounded-md shadow-lg transition">Shop Now</a>
+                <a href="login.html" class="text-lg font-semibold text-gray-300 hover:text-white transition">Learn More →</a>
+            </div>
+        </div>
+    </div>
+    
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800">📖 New Arrivals</h2>
+            <div class="flex overflow-x-auto space-x-6 mt-8 p-4">
+                <!-- Book 1 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/Moby.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">Moby Dick</h3>
+                    <p class="text-gray-500">Paulo Coelho</p>
+                    <p class="text-indigo-600 font-bold mt-2">$11.99</p>
+                </div>
+    
+                <!-- Book 2 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/pride.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">Pride and Predujice</h3>
+                    <p class="text-gray-500">James Clear</p>
+                    <p class="text-indigo-600 font-bold mt-2">$14.99</p>
+                </div>
+
+                <!-- Book 3 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/The Great Gatsby.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">The Great Gatsby</h3>
+                    <p class="text-gray-500">F. Scott Fitzgerald</p>
+                    <p class="text-indigo-600 font-bold mt-2">$14.99</p>
+                </div>
+
+                <!-- Book 4 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/image.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">The Innovators</h3>
+                    <p class="text-gray-500">Walter Isaacson</p>
+                    <p class="text-indigo-600 font-bold mt-2">$14.99</p>
+                </div>
+
+                <!-- Book 5 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/book2.jpg" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">Atomic Habits</h3>
+                    <p class="text-gray-500">James Clear</p>
+                    <p class="text-indigo-600 font-bold mt-2">$14.99</p>
+                </div>
+
+                <!-- Book 6 -->
+                <div class="min-w-[250px] bg-white p-4 rounded-lg shadow-lg">
+                    <img src="assets/images/book2.jpg" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                    <h3 class="mt-4 text-lg font-semibold">Atomic Habits</h3>
+                    <p class="text-gray-500">James Clear</p>
+                    <p class="text-indigo-600 font-bold mt-2">$14.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800">📚 Book Categories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+                <!-- Fiction -->                 
+                <a href="#" class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition">                     
+                    <img src="data:image/jpeg;base64,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" alt="Fiction" class="w-32 h-32 object-cover rounded-full">                     
+                    <h3 class="mt-4 text-lg font-semibold text-gray-800">Fiction</h3>                 
+                </a>                      
+
+                <!-- Science -->                 
+                <a href="#" class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition">                     
+                    <img src="https://example.com/images/science-logo.png" alt="Science" class="w-32 h-32 object-cover rounded-full">                     
+                    <h3 class="mt-4 text-lg font-semibold text-gray-800">Science</h3>                 
+                </a>                      
+
+                <!-- Mystery -->                 
+                <a href="#" class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition">                     
+                    <img src="https://example.com/images/mystery-logo.png" alt="Mystery" class="w-32 h-32 object-cover rounded-full">                     
+                    <h3 class="mt-4 text-lg font-semibold text-gray-800">Mystery</h3>                 
+                </a>                  
+
+                <!-- Comics & Graphic Novels -->                 
+                <a href="#" class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition">                     
+                    <img src="https://example.com/images/comics-logo.png" alt="Comics & Graphic Novels" class="w-32 h-32 object-cover rounded-full">                     
+                    <h3 class="mt-4 text-lg font-semibold text-gray-800">Comics & Graphic Novels</h3>                 
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-12 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">📩 Get in Touch</h2>
+            <p class="text-center text-gray-600 mb-8">
+                Have any questions or suggestions? We'd love to hear from you!
+            </p>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Contact Form -->
+                <form class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-semibold">Your Name</label>
+                        <input type="text" class="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring focus:ring-indigo-300" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-semibold">Your Email</label>
+                        <input type="email" class="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring focus:ring-indigo-300" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-semibold">Message</label>
+                        <textarea class="w-full p-3 mt-1 border border-gray-300 rounded-lg focus:ring focus:ring-indigo-300" rows="4" placeholder="Write your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">
+                        Send Message 🚀
+                    </button>
+                </form>
+    
+                <!-- Contact Details -->
+                <div class="flex flex-col space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <span class="text-indigo-600 text-2xl">📍</span>
+                        <p class="text-gray-700">123 Bookstore Street, Pune, India</p>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <span class="text-indigo-600 text-2xl">📞</span>
+                        <p class="text-gray-700">+91 8446432484</p>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <span class="text-indigo-600 text-2xl">✉️</span>
+                        <p class="text-gray-700">contact@bookstore.com</p>
+                    </div>
+                    <!-- Social Media Links -->
+                    <div class="flex space-x-4 text-indigo-600 text-2xl">
+                        <a href="#"><i class="fab fa-facebook hover:text-indigo-800"></i></a>
+                        <a href="#"><i class="fab fa-twitter hover:text-indigo-800"></i></a>
+                        <a href="#"><i class="fab fa-instagram hover:text-indigo-800"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center">
+        <p class="text-lg">© 2025 Knowledge Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
